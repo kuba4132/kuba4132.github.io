@@ -14,7 +14,7 @@ body
 
 div
 {
-  font-family: "Didact Gothic", arial, comic-sans;
+  font-family: "Didact Gothic",verdana, arial, comic-sans;
   color: white;
   font-size: 1.5em;
   text-indent: 20px;
@@ -42,7 +42,7 @@ li
 
 h1
 {
-  font-family: "Didact Gothic", arial, comic-sans;
+  font-family: "Didact Gothic",verdana, arial, comic-sans;
   color: white;
   font-size: 2vw;
 

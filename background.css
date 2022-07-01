@@ -33,6 +33,12 @@ li
 }
 
 
+img{
+    border-radius: 8px;
+    height: auto;
+    width:100%;
+}
+
 ::marker
 {
     color: white;
@@ -51,7 +57,7 @@ h1
 
 a{
     color:white;
-    font-family: "lato";
+    font-family: lato ,verdana;
     font-size:30px;
 }
 

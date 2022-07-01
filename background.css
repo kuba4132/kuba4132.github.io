@@ -35,8 +35,8 @@ li
 
 img{
     border-radius: 8px;
-    height: auto;
-    width:auto;
+    height: 600;
+    width: 500;
 }
 
 ::marker

@@ -2,6 +2,7 @@ html, body {
   height: 100%;
   margin: 0;
   color: #8EBBFF;
+  font-family: 'Lato', 'Verdana', 'Arial', 'Comic Sans MS';
 }
 
 body {
@@ -10,8 +11,7 @@ body {
 }
 
 header {
-  font-family: 'Lato', 'Verdana', 'Arial', 'Comic Sans MS';
-  font-size: 28px; /* Adjusted font size for smaller screens */
+  font-size: 24px;
   border-radius: 5px;
   position: fixed;
   top: 0;
@@ -22,21 +22,18 @@ header {
 
 .atext {
   color: #c4dcff;
-  font-family: 'Lato', 'Verdana';
-  font-size: 22px; /* Adjusted font size for smaller screens */
+  font-size: 20px;
   text-decoration: none;
 }
 
 .links {
-  font-family: 'Lato', 'Verdana', 'Arial', 'Comic Sans MS';
   color: #c4dcff;
-  font-size: 18px; /* Adjusted font size for smaller screens */
+  font-size: 18px;
   border-radius: 5px;
   border-color: aqua;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin: 1%;
   padding: 0.5%;
-  margin-top: 1%;
+  text-decoration: none;
 }
 
 a:hover {
@@ -44,13 +41,12 @@ a:hover {
 }
 
 div {
-  font-family: 'Lato', 'Verdana', 'Arial', 'Comic Sans MS';
   color: #8EBBFF;
 }
 
 .icon {
-  height: 30px; /* Adjusted icon height for smaller screens */
-  max-width: 40px; /* Adjusted icon width for smaller screens */
+  max-width: 100%;
+  height: auto;
 }
 
 .div_images {
@@ -59,8 +55,8 @@ div {
 
 img {
   border-radius: 8px;
-  max-width: 100%; /* Make images responsive */
-  height: auto; /* Maintain aspect ratio for responsive images */
+  max-width: 100%;
+  height: auto;
 }
 
 ::marker {
@@ -70,8 +66,7 @@ img {
 
 a {
   color: #8EBBFF;
-  font-family: 'Lato', 'Verdana';
-  font-size: 20px; /* Adjusted font size for smaller screens */
+  font-size: 18px;
   text-decoration: none;
 }
 
@@ -91,9 +86,9 @@ li a, .dropbtn {
   display: inline-block;
   color: #8EBBFF;
   text-align: center;
-  padding: 10px 12px; /* Adjusted padding for smaller screens */
+  padding: 10px 12px;
   text-decoration: none;
-  border-radius: 15px; /* Adjusted border-radius for smaller screens */
+  border-radius: 15px;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
@@ -106,7 +101,7 @@ li.dropdown {
 }
 
 .dropdown-content {
-  border-radius: 15px; /* Adjusted border-radius for smaller screens */
+  border-radius: 15px;
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -118,7 +113,7 @@ li.dropdown {
 
 .dropdown-content a {
   color: black;
-  padding: 10px 12px; /* Adjusted padding for smaller screens */
+  padding: 10px 12px;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -136,14 +131,22 @@ li.dropdown {
 @media only screen and (max-width: 768px) {
   body {
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   header {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .atext {
-    font-size: 20px;
+    font-size: 18px;
+  }
+
+  .links {
+    font-size: 16px;
+  }
+
+  a {
+    font-size: 16px;
   }
 }

@@ -47,6 +47,8 @@ div {
 .icon {
   max-width: 100%;
   height: auto;
+  max-width: 50px;
+  max-height: 40px;
 }
 
 .div_images {
